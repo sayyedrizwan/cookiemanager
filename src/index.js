@@ -77,6 +77,7 @@ const sessionStorage = (storageName, type) => {
 	}
 };
 
+
 module.exports = {
 	createCookie,
 	accessCookie,
