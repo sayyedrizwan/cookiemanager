@@ -1,19 +1,19 @@
 {
-  "name": "cookiemanager",
+  "name": "webcookiemanager",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cookies manager for you",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sayyedrizwan/cookiemanager.git"
+    "url": "git+https://github.com/sayyedrizwan/webcookiemanager.git"
   },
   "author": "Rizwan Sayyed",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sayyedrizwan/cookiemanager/issues"
+    "url": "https://github.com/sayyedrizwan/webcookiemanager/issues"
   },
-  "homepage": "https://github.com/sayyedrizwan/cookiemanager#readme"
+  "homepage": "https://github.com/sayyedrizwan/webcookiemanager#readme"
 }
