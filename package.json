@@ -1,19 +1,19 @@
 {
-  "name": "webcookiemanager",
+  "name": "storagewebmanager",
   "version": "1.0.0",
   "description": "Cookies manager for you",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sayyedrizwan/webcookiemanager.git"
+    "url": "git+https://github.com/sayyedrizwan/webstoragemanager.git"
   },
   "author": "Rizwan Sayyed",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sayyedrizwan/webcookiemanager/issues"
+    "url": "https://github.com/sayyedrizwan/webstoragemanager/issues"
   },
-  "homepage": "https://github.com/sayyedrizwan/webcookiemanager#readme"
+  "homepage": "https://github.com/sayyedrizwan/webstoragemanager#readme"
 }
