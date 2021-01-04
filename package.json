@@ -1,8 +1,28 @@
 {
   "name": "storagewebmanager",
-  "version": "1.0.0",
-  "description": "Cookies manager for you",
+  "version": "1.1.7",
+  "description": "Manager Cookies, sessionStorage without any big messy codes.",
   "main": "./src/index.js",
+  "author": "Rizwan Sayyed <sayyedrizwanahmed@gmail.com>",
+  "keywords": [
+    "cookies",
+    "sessionstorage",
+    "localStorage",
+    "webstorage",
+    "storage",
+    "datastore",
+    "webdata",
+    "framework",
+    "dev",
+    "tool",
+    "javascript",
+    "json",
+    "reactjs",
+    "angular",
+    "backend",
+    "api",
+    "npm"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +30,6 @@
     "type": "git",
     "url": "git+https://github.com/sayyedrizwan/webstoragemanager.git"
   },
-  "author": "Rizwan Sayyed",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sayyedrizwan/webstoragemanager/issues"
