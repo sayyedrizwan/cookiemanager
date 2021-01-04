@@ -36,7 +36,7 @@ StorageWebManager can be used for :
 
 ### &#8226; import Component 
 ```
- import { createCookie, createVaildityCookie, updateCookie, accessCookie, clearCookies} from 'storagewebmanager';
+ import { createCookie, deleteCookie, createVaildityCookie, updateCookie, accessCookie, clearCookies} from 'storagewebmanager';
 ```
 > Import only that Component which you are going to use.
 
@@ -52,6 +52,14 @@ StorageWebManager can be used for :
 ### &#8226; Access a cookie
 ```
  accessCookie("CookieName"); //return null if cookie not found
+```
+
+<br/>
+
+
+### &#8226; Delete a cookie
+```
+ deleteCookie("CookieName"); //return null if cookie not found
 ```
 
 <br/>
@@ -79,7 +87,7 @@ StorageWebManager can be used for :
 ### &#8226; If saving Array in cookies
 ```
  var data = { name: "Rizwan Sayyed", age: 22, location: "India" }
- createCookie(""CookieName", JSON.stringify(data));
+ createCookie("CookieName", JSON.stringify(data));
 
 ```
 > SWM have inbuild array dection, If it throw error and did not save json format add JSON.stringify(); to get the output
@@ -143,6 +151,24 @@ StorageWebManager can be used for :
 <br/>
 
 
+## Authenticate User
+
+### &#8226; import Component 
+```
+ import { userAuth, userAuthSet} from 'storagewebmanager';
+```
+> Import only that Component which you are going to use.
+
+<br/>
+
+-  <a>userAuthSet("uidValue", "add"); </a>//Add user unique value to help you in future (you can use "add", "remove", "get")
+
+-  <a>userAuth();</a>  //return true if you have uid set (Developer can authenticate using it).
+
+<br/>
+<br/>
+
+
 ## NPM
 - [NPM](https://www.npmjs.com/package/storagewebmanager) - View storagewebmanager on npmjs.
 
@@ -154,11 +180,13 @@ StorageWebManager can be used for :
 
 Contributions are always welcome! 😊
 
+Contact me on my email <a> sayyedrizwanahmed@gmail.com</a> for any query.
+
 <br/>
 
 MIT License
 
-Copyright (c) Facebook, Inc. and its affiliates.
+Copyright (c) Rizwan Sayyed. and its affiliates.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

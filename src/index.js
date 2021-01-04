@@ -1,3 +1,21 @@
+const userAuth = () => {
+	if (accessCookie('userAuth') !== null) {
+		return true;
+	} else {
+		return false;
+	}
+};
+
+const userAuthSet = (value, set) => {
+	if (set === 'add') {
+		createVaildityCookie('userAuth', value, 587);
+	}else if (set === 'remove') {
+		deleteCookie('userAuth');
+	} else {
+		accessCookie('userAuth');
+	}
+};
+
 const createCookie = (cookieName, cookieValue) => {
 	var date = new Date();
 	date.setTime(date.getTime() + 367 * 24 * 60 * 60 * 1000);
@@ -41,6 +59,10 @@ const clearCookies = () => {
 		document.cookie = allCookies[i] + '=;expires=' + new Date(0).toUTCString();
 };
 
+const deleteCookie = (cookieName) => {
+	document.cookie = cookieName + '=;expires=' + new Date(0).toUTCString();
+};
+
 const addLocalStorage = (storageName, storageValue) => {
 	window.localStorage.setItem(storageName, storageValue);
 };
@@ -77,7 +99,6 @@ const sessionStorage = (storageName, type) => {
 	}
 };
 
-
 module.exports = {
 	createCookie,
 	accessCookie,
@@ -87,5 +108,8 @@ module.exports = {
 	addLocalStorage,
 	localStorage,
 	addsessionStorage,
-	sessionStorage
+	sessionStorage,
+	deleteCookie,
+	userAuth,
+	userAuthSet
 };
