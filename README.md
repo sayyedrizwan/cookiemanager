@@ -1,7 +1,7 @@
 
 <img src="files/logo.png" align="right" />
 
-# StorageWebManager <a href="https://www.npmjs.com/package/storagewebmanager"><img src="files/logoname.png" style="width: 185px; transform: translate(20px, 10px);" /> </a>
+# StorageWebManager <a href="https://www.npmjs.com/package/storagewebmanager"><img src="files/logoname.png" width="150px" style="transform: translate(20px, 10px);" /> </a>
 
 
 <br/>
@@ -121,6 +121,7 @@ StorageWebManager can be used for :
  import { addsessionStorage, sessionStorage} from 'storagewebmanager';
 ```
 > Import only that Component which you are going to use.
+> Return 0 if SessionStorage is not supported by browser
 
 <br/>
 
