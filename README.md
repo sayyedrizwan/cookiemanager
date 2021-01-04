@@ -32,6 +32,12 @@ StorageWebManager can be used for :
  npm i storagewebmanager
 ```
 
+### Using package CDN:
+
+```
+ <script src="https://raw.githubusercontent.com/sayyedrizwan/storagewebmanager/master/src/indexvanilla.js"></script>
+```
+
 ## Manager Cookies
 
 ### &#8226; import Component 

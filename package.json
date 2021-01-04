@@ -1,6 +1,6 @@
 {
   "name": "storagewebmanager",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Manager Cookies, sessionStorage without any big messy codes.",
   "main": "./src/index.js",
   "author": "Rizwan Sayyed <sayyedrizwanahmed@gmail.com>",
